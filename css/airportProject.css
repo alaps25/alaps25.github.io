@@ -1,0 +1,2064 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+
+@font-face {
+  font-family: "SanFranciscoDisplay-Bold";
+  src: url('../fonts/SanFranciscoDisplay-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Light";
+  src: url('../fonts/SanFranciscoDisplay-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Medium";
+  src: url('../fonts/SanFranciscoDisplay-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoText-Regular";
+  src: url('../fonts/SanFranciscoText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoText-Light";
+  src: url('../fonts/SanFranciscoText-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Regular";
+  src: url('../fonts/SanFranciscoDisplay-Regular.otf') format("opentype");
+}
+
+.airport-project {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 7868px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.airport-project .hello {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 80.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 95.0px;
+}
+.airport-project .gray {
+  background          : rgba(247, 248, 249, 1.0);
+  top                 : 147px;
+  height              : 4864px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+}
+.airport-project .view1 {
+  background          : rgba(29, 41, 59, 1.0);
+  top                 : 5011px;
+  height              : 2857px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+}
+.airport-project .group22 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 5501px;
+  height              : 434px;
+  width               : 412px;
+  position            : absolute;
+  margin              : 0;
+  left                : 528px;
+}
+.airport-project .group22 .group {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 105px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group22 .group .he-is-the-primary-st {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.airport-project .group22 .group .afl-manager {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group22 .group .page1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+}
+.airport-project .group22 .group-copy3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 141px;
+  height              : 132px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group22 .group-copy3 .he-takes-the-field-t {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.airport-project .group22 .group-copy3 .field-team-leader {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group22 .group-copy3 .image1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+}
+.airport-project .group22 .group-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 109px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+}
+.airport-project .group22 .group-copy .primary-user-of-the {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.airport-project .group22 .group-copy .afl-engineer {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group22 .group-copy .image2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+}
+.airport-project .group22 .group-copy4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 141px;
+  height              : 136px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+}
+.airport-project .group22 .group-copy4 .he-along-with-other {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.airport-project .group22 .group-copy4 .field-technician {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group22 .group-copy4 .image3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+}
+.airport-project .group22 .group-copy2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 277px;
+  height              : 157px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.airport-project .group22 .group-copy2 .receives-the-inputs {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.airport-project .group22 .group-copy2 .duty-engineer {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group22 .group-copy2 .image4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+}
+.airport-project .group22 .key-stakeholders {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .rectangle {
+  background          : rgba(0, 0, 0, 1.0);
+  top                 : 146px;
+  height              : 1px;
+  width               : 944px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.airport-project .you-are-experiencing {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 108px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group21 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 5951px;
+  height              : 389px;
+  width               : 436px;
+  position            : absolute;
+  margin              : 0;
+  left                : 528px;
+}
+.airport-project .group21 .group5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 389px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group21 .group5 .image5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : 202px;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group21 .group5 .insight {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 233px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group21 .group5 .solutions {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group21 .group5 .dynamic-progressiv {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 256px;
+  height              : auto;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.airport-project .group21 .group4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : 286px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 147px;
+}
+.airport-project .group21 .group4 .dispatch {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 209px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group21 .group4 .view2 {
+  background          : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.airport-project .group21 .group4 .view2 .mask {
+  background          : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group21 .group4 .view2 .image6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : -53px;
+  height              : 255px;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group21 .group4 .digitally-assign-j {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 230px;
+  height              : auto;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.airport-project .group21 .group6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : 275px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 295px;
+}
+.airport-project .group21 .group6 .field {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 209px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group21 .group6 .inspection-break {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 230px;
+  height              : auto;
+  width               : 139px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 12.0px;
+}
+.airport-project .group21 .group6 .view3 {
+  background          : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.airport-project .group21 .group6 .view3 .view4 {
+  background          : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group21 .group6 .view3 .image7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : -52px;
+  height              : 254px;
+  width               : 141px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .rectangle5 {
+  background          : rgba(255,255,255,0.0);
+  top                 : 6968px;
+  height              : 351px;
+  width               : 652px;
+  position            : absolute;
+  margin              : 0;
+  left                : 248px;
+  overflow            : hidden;
+}
+.airport-project .rectangle5-copy {
+  background          : rgba(255,255,255,0.0);
+  top                 : 7363px;
+  height              : 351px;
+  width               : 652px;
+  position            : absolute;
+  margin              : 0;
+  left                : 248px;
+  overflow            : hidden;
+}
+.airport-project .group15 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1254px;
+  height              : 404px;
+  width               : 746px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.airport-project .group15 .image8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : 385px;
+  width               : 695px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.airport-project .group15 .advance-integrations {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group14 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 528px;
+  height              : 688px;
+  width               : 758px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.airport-project .group14 .group7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 219px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group14 .group7 .cms-is-a-legacy15-y {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.airport-project .group14 .group7 .background {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group14 .group2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 233px;
+  height              : 152px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group14 .group2 .automation-and-energ {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.airport-project .group14 .group2 .market-dynamics {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group14 .group8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 400px;
+  height              : 254px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group14 .group8 .technical-end-of-lif {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.airport-project .group14 .group8 .key-growth-drivers {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group14 .group9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 352px;
+  width               : 469px;
+  position            : absolute;
+  margin              : 0;
+  left                : 277px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.airport-project .group14 .group9-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 364px;
+  height              : 302px;
+  width               : 407px;
+  position            : absolute;
+  margin              : 0;
+  left                : 339px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.airport-project .group11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1716px;
+  height              : 776px;
+  width               : 751px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.airport-project .group11 .view5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 137px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group11 .view5 .the-idea-is-to-creat {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.airport-project .group11 .view5 .e2-e-touchpoint-works {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group11 .group10 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 166px;
+  width               : 454px;
+  position            : absolute;
+  margin              : 0;
+  left                : 285px;
+}
+.airport-project .group11 .group13 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 417px;
+  height              : 337px;
+  width               : 671px;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.airport-project .group11 .group13-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 405px;
+  width               : 476px;
+  position            : absolute;
+  margin              : 0;
+  left                : 263px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.airport-project .group3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 185px;
+  height              : 327px;
+  width               : 758px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.airport-project .group3 .group12 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 327px;
+  width               : 502px;
+  position            : absolute;
+  margin              : 0;
+  left                : 256px;
+}
+.airport-project .group3 .view6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 252px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group3 .view6 .icwp-is-one-of-the-m {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 27px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.airport-project .group3 .view6 .icwp201516 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.airport-project .group17 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2530px;
+  height              : 627px;
+  width               : 764px;
+  position            : absolute;
+  margin              : 0;
+  left                : 208px;
+}
+.airport-project .group17 .group3-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 201px;
+  height              : 426px;
+  width               : 643px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.airport-project .group17 .group3-copy .view7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 189px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group17 .group3-copy .view7 .label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.airport-project .group17 .group3-copy .view7 .runway-controller {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group17 .group3-copy .view7 .image9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group17 .group3-copy .view8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 189px;
+  height              : 237px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group17 .group3-copy .view8 .the-tower-clearance {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 38px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.airport-project .group17 .group3-copy .view8 .tower-clearance-deli {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 151px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group17 .group3-copy .view8 .image10 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group17 .group3-copy .view9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 147px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.airport-project .group17 .group3-copy .view9 .he-primarily-manages {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.airport-project .group17 .group3-copy .view9 .ground-controller {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group17 .group3-copy .view9 .image11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group17 .group3-copy .view10 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 189px;
+  height              : 223px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.airport-project .group17 .group3-copy .view10 .he-is-responsible-fo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.airport-project .group17 .group3-copy .view10 .tower-supervisor {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group17 .group3-copy .view10 .image12 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group17 .group3-copy .view11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 119px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 442px;
+}
+.airport-project .group17 .group3-copy .view11 .he-functionally-mana {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : auto;
+  width               : 164px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.airport-project .group17 .group3-copy .view11 .apron-controller {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group17 .group3-copy .view11 .image13 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group17 .group16 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 26px;
+  height              : 156px;
+  width               : 740px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.airport-project .group17 .label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group18 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3217px;
+  height              : 362px;
+  width               : 740px;
+  position            : absolute;
+  margin              : 0;
+  left                : 220px;
+}
+.airport-project .group18 .opportunity-areas {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group18 .image14 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 362px;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 529px;
+  overflow            : hidden;
+}
+.airport-project .group18 .image15 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 39px;
+  height              : 323px;
+  width               : 457px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group19 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4199px;
+  height              : 779px;
+  width               : 740px;
+  position            : absolute;
+  margin              : 0;
+  left                : 217px;
+}
+.airport-project .group19 .mockups-and-concepts {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .group19 .rectangle9 {
+  background          : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 370px;
+  width               : 740px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.airport-project .group19 .rectangle9-copy {
+  background          : rgba(255,255,255,0.0);
+  top                 : 409px;
+  height              : 370px;
+  width               : 740px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.airport-project .group20 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3639px;
+  height              : 500px;
+  width               : 752px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.airport-project .group20 .image16 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 323px;
+  width               : 227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 525px;
+}
+.airport-project .group20 .image17 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 26px;
+  height              : 329px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 302px;
+}
+.airport-project .group20 .image18 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : 325px;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group20 .rectangle3 {
+  background          : rgba(255,255,255,0.0);
+  top                 : 378px;
+  height              : 122px;
+  width               : 407px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  overflow            : hidden;
+}
+.airport-project .group20 .detailings {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .h-u-eposter40x7003 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 6513px;
+  height              : 378px;
+  width               : 793px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+}
+.airport-project .group23 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 5051px;
+  height              : 410px;
+  width               : 764px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.airport-project .group23 .view12 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 210px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group23 .view12 .aewp-allows-system-e {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.6;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.airport-project .group23 .view12 .a-ewp {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.airport-project .group23 .group24 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 410px;
+  width               : 517px;
+  position            : absolute;
+  margin              : 0;
+  left                : 247px;
+}
+.airport-project .group81-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 5280px;
+  height              : 1208px;
+  width               : 273px;
+  position            : absolute;
+  margin              : 0;
+  left                : 207px;
+}
+.airport-project .fault-handling {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 6944px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 248px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .personalization {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 7341px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 248px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.airport-project .view13 {
+  background          : rgba(0, 0, 0, 1.0);
+  top                 : 306px;
+  height              : 1px;
+  width               : 58px;
+  position            : absolute;
+  margin              : 0;
+  left                : 133px;
+}
+.airport-project .group83 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 176px;
+  height              : 853px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+}
+.airport-project .group83 .group79 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 306px;
+  height              : 120px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group79 .projects-experimen {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 90px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group79 .entrepreneurial {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group79 .label3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.airport-project .group83 .group79 .m-ore {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.airport-project .group83 .group82 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 266px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group82 .honeywell {
+  background          : black;
+  top                 : 59px;
+  height              : auto;
+  width               : 80px;
+  padding-left: 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : white;
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group82 .maxpro-cloud {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 90px;
+  height              : auto;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group82 .smart-search {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 219px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group82 .airport-project1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 121px;
+  height              : auto;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group82 .books-to-tax {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 250px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group82 .label4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 152px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group82 .intuit {
+  background          : rgba(255, 255, 255, 0.0);
+  background          : black;
+  top                 : 188px;
+  height              : auto;
+  width               : 50px;
+  padding-left: 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : white;
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group82 .label5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.airport-project .group83 .group82 .w-ork {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.airport-project .group83 .group80 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 465px;
+  height              : 112px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group80 .bachelors-in-archite {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 83px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group80 .masters-in-design {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 52px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group80 .c-ollege {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.airport-project .group83 .group80 .label6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group81 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 618px;
+  height              : 235px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group81 .m-e {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.airport-project .group83 .group81 .group33 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 123px;
+  height              : 18px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group81 .group33 .label7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.airport-project .group83 .group81 .group33 .v-sco {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group81 .group34 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 94px;
+  height              : 18px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group81 .group34 .label8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.airport-project .group83 .group81 .group34 .instagram {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group81 .group32 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 153px;
+  height              : 18px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group81 .group32 .label9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.airport-project .group83 .group81 .group32 .linkedin {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group81 .group31 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 217px;
+  height              : 18px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group81 .group31 .label10 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.airport-project .group83 .group81 .group31 .contact-me {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group81 .group37 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 186px;
+  height              : 18px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group81 .group37 .label11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.airport-project .group83 .group81 .group37 .films {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group81 .group35 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 63px;
+  height              : 18px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group81 .group35 .label12 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.airport-project .group83 .group81 .group35 .dribbble {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.airport-project .group83 .group81 .group35-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : 18px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.airport-project .group83 .group81 .group35-copy .label13 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.airport-project .group83 .group81 .group35-copy .c-v {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,1715 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+
+@font-face {
+  font-family: "SanFranciscoDisplay-Bold";
+  src: url('../fonts/SanFranciscoDisplay-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Light";
+  src: url('../fonts/SanFranciscoDisplay-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Medium";
+  src: url('../fonts/SanFranciscoDisplay-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoText-Regular";
+  src: url('../fonts/SanFranciscoText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoText-Light";
+  src: url('../fonts/SanFranciscoText-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Regular";
+  src: url('../fonts/SanFranciscoDisplay-Regular.otf') format("opentype");
+}
+
+.intuit-page {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 4598px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.intuit-page .hello {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 80.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 95.0px;
+}
+.intuit-page .rectangle {
+  background          : rgba(0, 0, 0, 1.0);
+  top                 : 146px;
+  height              : 1px;
+  width               : 944px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.intuit-page .you-are-experiencing {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 108px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .gray {
+  background          : rgba(247, 248, 249, 1.0);
+  top                 : 147px;
+  height              : 4451px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+}
+.intuit-page .group11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1785px;
+  height              : 473px;
+  width               : 745px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+
+.intuit-page .group11 .group2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 450px;
+  width               : 745px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group11 .iterations {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .group11 .results {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 350px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .group11 .resultsdata {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 370px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.intuit-page .group10 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 185px;
+  height              : 315px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.intuit-page .group10 .lacerte-is-perfect-f {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(69, 77, 88, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.intuit-page .group10 .universal-search {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.intuit-page .group10 .page1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.intuit-page .group10 .vidd {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.intuit-page .group10 .video1 {
+  background          : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  overflow            : hidden;
+}
+.intuit-page .group {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 443px;
+  height              : 841px;
+  width               : 728px;
+  position            : absolute;
+  margin              : 0;
+  left                : 220px;
+}
+.intuit-page .group .lacerte-does-not-h {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 136px;
+  height              : auto;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.intuit-page .group .luniversal-search-wi {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 136px;
+  height              : auto;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 379px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.intuit-page .group .pcg-and-sbg-design {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 483px;
+  height              : auto;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 379px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.intuit-page .group .group78 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 587px;
+  height              : 168px;
+  width               : 348px;
+  position            : absolute;
+  margin              : 0;
+  left                : 381px;
+}
+.intuit-page .group .group78 .label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.intuit-page .group .group78 .user-tests {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 231px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.intuit-page .group .group78 .a10-iterations-of-o {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 84px;
+  height              : auto;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.intuit-page .group .group78 .a8-fmh-w-user-tests {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 84px;
+  height              : auto;
+  width               : 117px;
+  position            : absolute;
+  margin              : 0;
+  left                : 231px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.intuit-page .group .group78 .a49 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 71.0px;
+}
+.intuit-page .group .group78 .a22 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 228px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 60.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 71.0px;
+}
+.intuit-page .group .what-were-hoping-to {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 483px;
+  height              : auto;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.intuit-page .group .what-were-hoping-to-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 519px;
+  height              : auto;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.intuit-page .group .customer-problem-sta {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 113px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .group .hypothesis {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 113px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 379px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .group .businesses-and-geogr {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 460px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 379px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .group .achieve-and-learn {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 460px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .group .view1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 89px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group .view1 .stroke1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : 40px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+}
+.intuit-page .group .view1 .group5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 60px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+}
+.intuit-page .group .view1 .group8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 55px;
+  height              : 33px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+}
+.intuit-page .group .view1 .group29 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 89px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group .view1 .group29 .stroke9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 17px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.intuit-page .group .view1 .group29 .stroke11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.intuit-page .group .view1 .group29 .stroke13 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 38px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+}
+.intuit-page .group .view1 .group29 .stroke15 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 55px;
+  height              : 34px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group .view1 .group29 .stroke17 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 3px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+}
+.intuit-page .group .view1 .group29 .stroke19 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : 11px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.intuit-page .group .view1 .group29 .stroke21 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : 11px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+}
+.intuit-page .group .view1 .group29 .stroke23 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 37px;
+  height              : 5px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+}
+.intuit-page .group .view1 .group29 .stroke25 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 62px;
+  height              : 27px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.intuit-page .group .view1 .group29 .stroke27 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 55px;
+  height              : 4px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+}
+.intuit-page .group12 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2318px;
+  height              : 536px;
+  width               : 619px;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+}
+.intuit-page .group12 .page1-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 29px;
+  height              : 485px;
+  width               : 595px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+}
+.intuit-page .group12 .rectangle3 {
+  background          : rgba(255,255,255,0.0);
+  flex-direction      : row;
+  top                 : 29px;
+  align-items         : center;
+  height              : 485px;
+  width               : 595px;
+  justify-content     : center;
+  position            : absolute;
+  flex-wrap           : wrap;
+  margin              : 0;
+  display             : flex;
+  left                : 12px;
+}
+.intuit-page .group12 .complete-presentatio {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .view2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2890px;
+  height              : 315px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.intuit-page .view2 .lacerte-users-are-oc {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(69, 77, 88, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.intuit-page .view2 .books-to-tax {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.intuit-page .view2 .image1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.intuit-page .view2 .group15 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.intuit-page .view2 .vid {
+  background          : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  overflow            : hidden;
+}
+.intuit-page .group10-copy2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3241px;
+  height              : 315px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.intuit-page .group10-copy2 .this-feature-allows {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(69, 77, 88, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.intuit-page .group10-copy2 .smart-look {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.intuit-page .group10-copy2 .image2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.intuit-page .group10-copy2 .image3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.intuit-page .group10-copy2 .image4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.intuit-page .group10-copy2 .video2 {
+  background          : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  overflow            : hidden;
+}
+.intuit-page .group10-copy3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3592px;
+  height              : 315px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.intuit-page .group10-copy3 .cpas-are-always-on-t {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(69, 77, 88, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.intuit-page .group10-copy3 .cpa-app {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.intuit-page .group10-copy3 .image5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.intuit-page .group10-copy3 .image6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.intuit-page .group10-copy3 .image7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.intuit-page .group10-copy3 .video3 {
+  background          : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  overflow            : hidden;
+}
+.intuit-page .group10-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3943px;
+  height              : 546px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.intuit-page .group10-copy .group13 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 37px;
+  height              : 511px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group10-copy .group13 .quick-launch {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(80, 182, 65, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .group10-copy .group13 .suggestions {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 154px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(80, 182, 65, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .group10-copy .group13 .workflow-bots {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 326px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(80, 182, 65, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .group10-copy .group13 .learn-from-user-beha {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.intuit-page .group10-copy .group13 .show-quick-launch-i {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 71px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.intuit-page .group10-copy .group13 .learn-from-peer-user {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 176px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.intuit-page .group10-copy .group13 .suggest-user-on-what {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 240px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.intuit-page .group10-copy .group13 .study-and-learn-abou {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 348px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.intuit-page .group10-copy .group13 .show-workflow-bots-w {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 431px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "Avenir-Book", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.intuit-page .group10-copy .adaptive-interfaces {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.intuit-page .group10-copy .image8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 291px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.intuit-page .group16 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1284px;
+  height              : 463px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.intuit-page .group16 .view3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
+  height              : 365px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group16 .view3 .careful-hand-holdi {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.intuit-page .group16 .view3 .onboarding {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.intuit-page .group16 .group17 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 463px;
+  width               : 522px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+}
+.intuit-page .rectangle5 {
+  background          : rgba(0, 0, 0, 1.0);
+  top                 : 404px;
+  height              : 1px;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 126px;
+}
+.intuit-page .group83 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 176px;
+  height              : 853px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+}
+.intuit-page .group83 .group79 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 306px;
+  height              : 120px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group79 .projects-experimen {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 90px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group79 .entrepreneurial {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group79 .label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.intuit-page .group83 .group79 .m-ore {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.intuit-page .group83 .group82 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 266px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group82 .honeywell {
+  background          : black;
+  top                 : 59px;
+  height              : auto;
+  width               : 80px;
+  padding-left: 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : white;
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group82 .maxpro-cloud {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 90px;
+  height              : auto;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group82 .smart-search {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 219px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group82 .airport-project {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 121px;
+  height              : auto;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group82 .label3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 250px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group82 .label4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 152px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group82 .intuit {
+  background          : black;
+  top                 : 188px;
+  height              : auto;
+  width               : 50px;
+  padding-left: 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : white;
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group82 .label5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.intuit-page .group83 .group82 .w-ork {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.intuit-page .group83 .group80 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 465px;
+  height              : 112px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group80 .bachelors-in-archite {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 83px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group80 .masters-in-design {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 52px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group80 .c-ollege {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.intuit-page .group83 .group80 .label6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group81 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 618px;
+  height              : 235px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group81 .m-e {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.intuit-page .group83 .group81 .group33 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 123px;
+  height              : 18px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group81 .group33 .label7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.intuit-page .group83 .group81 .group33 .v-sco {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group81 .group34 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 94px;
+  height              : 18px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group81 .group34 .label8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.intuit-page .group83 .group81 .group34 .instagram {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group81 .group32 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 153px;
+  height              : 18px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group81 .group32 .label9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.intuit-page .group83 .group81 .group32 .linkedin {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group81 .group31 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 217px;
+  height              : 18px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group81 .group31 .label10 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.intuit-page .group83 .group81 .group31 .contact-me {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group81 .group37 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 186px;
+  height              : 18px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group81 .group37 .label11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.intuit-page .group83 .group81 .group37 .films {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group81 .group35 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 63px;
+  height              : 18px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group81 .group35 .label12 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.intuit-page .group83 .group81 .group35 .dribbble {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.intuit-page .group83 .group81 .group35-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : 18px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.intuit-page .group83 .group81 .group35-copy .label13 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.intuit-page .group83 .group81 .group35-copy .c-v {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

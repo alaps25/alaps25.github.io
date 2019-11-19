@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+
+@font-face {
+  font-family: "SanFranciscoDisplay-Bold";
+  src: url('../fonts/SanFranciscoDisplay-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Light";
+  src: url('../fonts/SanFranciscoDisplay-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Medium";
+  src: url('../fonts/SanFranciscoDisplay-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoText-Regular";
+  src: url('../fonts/SanFranciscoText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoText-Light";
+  src: url('../fonts/SanFranciscoText-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Regular";
+  src: url('../fonts/SanFranciscoDisplay-Regular.otf') format("opentype");
+}
+
+.timeline1 {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 643px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(247, 248, 249, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.timeline1 .aurorav0107 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 76px;
+  height              : 852px;
+  width               : 927px;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+}
+.timeline1 .group3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 52px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.timeline1 .group3 .rectangle {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 52px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 26px;
+}
+.timeline1 .group3 .group2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.timeline1 .group3 .group2 .group {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 17px;
+  width               : 17px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.timeline1 .group3 .group2 .group .page1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 17px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

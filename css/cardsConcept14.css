@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+
+@font-face {
+  font-family: "SanFranciscoDisplay-Bold";
+  src: url('../fonts/SanFranciscoDisplay-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Light";
+  src: url('../fonts/SanFranciscoDisplay-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Medium";
+  src: url('../fonts/SanFranciscoDisplay-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoText-Regular";
+  src: url('../fonts/SanFranciscoText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoText-Light";
+  src: url('../fonts/SanFranciscoText-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Regular";
+  src: url('../fonts/SanFranciscoDisplay-Regular.otf') format("opentype");
+}
+
+.cards-concept14 {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 643px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(247, 248, 249, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.cards-concept14 .group3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 52px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.cards-concept14 .group3 .rectangle {
+  background          : rgba(246, 246, 246, 1.0);
+  top                 : 0px;
+  height              : 52px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 26px;
+}
+.cards-concept14 .group3 .group2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : 25px;
+  width               : 25px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.cards-concept14 .group3 .group2 .group {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.cards-concept14 .group3 .group2 .group .page1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25px;
+  width               : 25px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.cards-concept14 .rectangle8 {
+  background          : rgba(255,255,255,0.0);
+  top                 : 101px;
+  height              : 442px;
+  width               : 737px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  overflow            : hidden;
+}
+.cards-concept14 .password {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 72px;
+  height              : auto;
+  width               : 76px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  font-family         : "SanFranciscoDisplay-Regular", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.cards-concept14 .alapportfolio {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 72px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 168px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

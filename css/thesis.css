@@ -1,0 +1,1327 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+
+@font-face {
+  font-family: "SanFranciscoDisplay-Bold";
+  src: url('../fonts/SanFranciscoDisplay-Bold.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Light";
+  src: url('../fonts/SanFranciscoDisplay-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Medium";
+  src: url('../fonts/SanFranciscoDisplay-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoText-Regular";
+  src: url('../fonts/SanFranciscoText-Regular.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoText-Light";
+  src: url('../fonts/SanFranciscoText-Light.otf') format("opentype");
+}
+@font-face {
+  font-family: "SanFranciscoDisplay-Regular";
+  src: url('../fonts/SanFranciscoDisplay-Regular.otf') format("opentype");
+}
+
+.thesis {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 7461px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.thesis .hello {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 80.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 95.0px;
+}
+.thesis .rectangle {
+  background          : rgba(0, 0, 0, 1.0);
+  top                 : 146px;
+  height              : 1px;
+  width               : 944px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+}
+.thesis .you-are-experiencing {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 108px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.thesis .gray {
+  background          : rgba(247, 248, 249, 1.0);
+  top                 : 147px;
+  height              : 7324px;
+  width               : 794px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+}
+.thesis .group10 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 185px;
+  height              : 315px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.thesis .group10 .internship-and-thesi {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(69, 77, 88, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.thesis .group10 .future-magazine200 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.thesis .group10 .page1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 303px;
+  width               : 524px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.thesis .group10-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 6967px;
+  height              : 440px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.thesis .group10-copy .an-application-for-w {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.thesis .group10-copy .wild-wiki {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.thesis .group10-copy .image1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 416px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.thesis .group10-copy .rectangle3 {
+  background          : rgba(255,255,255,0.0);
+  flex-direction      : row;
+  top                 : 2px;
+  align-items         : center;
+  height              : 416px;
+  width               : 500px;
+  justify-content     : center;
+  position            : absolute;
+  flex-wrap           : wrap;
+  margin              : 0;
+  display             : flex;
+  left                : 244px;
+}
+.thesis .group9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 536px;
+  height              : 315px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.thesis .group9 .group {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 295px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group9 .group .print-magazine-indus {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.thesis .group9 .group .design-problem {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.thesis .group9 .page1-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 303px;
+  width               : 524px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.thesis .group8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 891px;
+  height              : 374px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.thesis .group8 .group-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 120px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group8 .group-copy .design-factory-forme {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.thesis .group8 .group-copy .team {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.thesis .group8 .page1-copy2 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 2px;
+  height              : 350px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.thesis .group8 .page1-copy2 .mask {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 350px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+}
+.thesis .group8 .page1-copy2 .bitmap {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : -2px;
+  height              : 261px;
+  width               : 511px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+}
+.thesis .group8 .page1-copy2 .slide5728 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : -10px;
+  height              : 381px;
+  width               : 531px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1301px;
+  height              : 516px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.thesis .group7 .group-copy2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 212px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group7 .group-copy2 .vtt-share-facts-and {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.thesis .group7 .group-copy2 .process {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.thesis .group7 .page1-copy3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 106px;
+  width               : 524px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.thesis .group7 .page1-copy4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 128px;
+  height              : 366px;
+  width               : 524px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.thesis .group6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1853px;
+  height              : 674px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.thesis .group6 .group-copy3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 212px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group6 .group-copy3 .customer-research-le {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.thesis .group6 .group-copy3 .personas {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.thesis .group6 .page1-copy5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 650px;
+  width               : 524px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.thesis .group5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2563px;
+  height              : 802px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.thesis .group5 .group-copy4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 184px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group5 .group-copy4 .we-realized-that-one {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.thesis .group5 .group-copy4 .strategy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.thesis .group5 .page1-copy7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 778px;
+  width               : 524px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.thesis .group4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3401px;
+  height              : 2267px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.thesis .group4 .group-copy5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 513px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group4 .group-copy5 .the-idea-was-to-do-t {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.thesis .group4 .group-copy5 .service-design {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.thesis .group4 .page1-copy8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 2243px;
+  width               : 524px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.thesis .group3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 5704px;
+  height              : 1230px;
+  width               : 756px;
+  position            : absolute;
+  margin              : 0;
+  left                : 221px;
+}
+.thesis .group3 .this-was-a-followup {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoText-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.thesis .group3 .interactive-magazine {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(69, 76, 88, 0.87);
+  text-align          : justify;
+  line-height         : 19.0px;
+}
+.thesis .group3 .image2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 375px;
+  width               : 500px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.thesis .group3 .rectangle2 {
+  background          : rgba(255,255,255,0.0);
+  flex-direction      : row;
+  top                 : 2px;
+  align-items         : center;
+  height              : 375px;
+  width               : 500px;
+  justify-content     : center;
+  position            : absolute;
+  flex-wrap           : wrap;
+  margin              : 0;
+  display             : flex;
+  left                : 244px;
+}
+.thesis .group3 .page1-copy6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 865px;
+  height              : 363px;
+  width               : 524px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+  border-radius       : 5px;
+  overflow            : hidden;
+}
+.thesis .group3 .group11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 402px;
+  height              : 440px;
+  width               : 524px;
+  position            : absolute;
+  margin              : 0;
+  left                : 232px;
+}
+.thesis .group3 .group11 .group2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 416px;
+  width               : 524px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group3 .widget1 {
+  background          : rgba(255,255,255,0.0);
+  flex-direction      : row;
+  top                 : 8px;
+  align-items         : center;
+  height              : 416px;
+  width               : 500px;
+  justify-content     : center;
+  position            : absolute;
+  flex-wrap           : wrap;
+  margin              : 0;
+  display             : flex;
+  left                : 12px;
+}
+.thesis .rectangle5 {
+  background          : rgba(0, 0, 0, 1.0);
+  top                 : 703px;
+  height              : 1px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 151px;
+}
+.thesis .group83 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 176px;
+  height              : 853px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+}
+.thesis .group83 .group79 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 306px;
+  height              : 120px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group79 .projects-experimen {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 90px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group79 .entrepreneurial {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 59px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group79 .label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.thesis .group83 .group79 .m-ore {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.thesis .group83 .group82 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 266px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group82 .honeywell {
+  background          : black;
+  top                 : 59px;
+  height              : auto;
+  width               : 80px;
+  padding-left: 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : white;
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group82 .maxpro-cloud {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 90px;
+  height              : auto;
+  width               : 86px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group82 .smart-search {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 219px;
+  height              : auto;
+  width               : 84px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group82 .airport-project {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 121px;
+  height              : auto;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group82 .books-to-tax {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 250px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group82 .label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 152px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group82 .intuit {
+  background          : black;
+  top                 : 188px;
+  height              : auto;
+  width               : 50px;
+  padding-left: 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : white;
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group82 .label3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.thesis .group83 .group82 .w-ork {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.thesis .group83 .group80 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 465px;
+  height              : 112px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group80 .bachelors-in-archite {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 83px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group80 .masters-in-design {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 52px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group80 .c-ollege {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.thesis .group83 .group80 .label4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group81 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 618px;
+  height              : 235px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group81 .m-e {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "SanFranciscoDisplay-Bold", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.thesis .group83 .group81 .group33 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 123px;
+  height              : 18px;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group81 .group33 .label5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.thesis .group83 .group81 .group33 .v-sco {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group81 .group34 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 94px;
+  height              : 18px;
+  width               : 88px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group81 .group34 .label6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.thesis .group83 .group81 .group34 .instagram {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group81 .group32 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 153px;
+  height              : 18px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group81 .group32 .label7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.thesis .group83 .group81 .group32 .linkedin {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group81 .group31 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 217px;
+  height              : 18px;
+  width               : 96px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group81 .group31 .label8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.thesis .group83 .group81 .group31 .contact-me {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group81 .group37 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 186px;
+  height              : 18px;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group81 .group37 .label9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.thesis .group83 .group81 .group37 .films {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group81 .group35 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 63px;
+  height              : 18px;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group81 .group35 .label10 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.thesis .group83 .group81 .group35 .dribbble {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.thesis .group83 .group81 .group35-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : 18px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.thesis .group83 .group81 .group35-copy .label11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "AppleColorEmoji", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 23.0px;
+}
+.thesis .group83 .group81 .group35-copy .c-v {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  font-family         : "SanFranciscoDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
